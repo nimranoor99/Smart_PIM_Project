@@ -124,7 +124,6 @@ In today's data-driven organizations, product data is the lifeblood of e-commerc
 > 4. *Provide real-time insights via API and dashboard*
 > 5. *Automate the entire pipeline from data ingestion to reporting*
 > 6. *Create professional reports for stakeholders*
-> 7. *Be interview-ready with all technologies demonstrated"*
 
 **Project Requirements:**
 | Requirement | Success Criteria |
@@ -681,7 +680,7 @@ echo "========================================" | tee -a $LOG_FILE
 #### **1. Clone the Repository**
 
 ```bash
-git clone https://github.com/yourusername/smartpim-analytics.git
+git clone https://github.com/nimranoor99/smartpim-analytics.git
 cd smartpim-analytics
 ```
 
@@ -691,39 +690,53 @@ cd smartpim-analytics
 # Windows
 python -m venv venv
 venv\Scripts\activate
-
-# Mac/Linux
-python3 -m venv venv
-source venv/bin/activate
 ```
+<img width="415" height="120" alt="image" src="https://github.com/user-attachments/assets/54d129eb-36e3-4b03-a47d-589d74e353cd" />
 
 #### **3. Install Dependencies**
 
 ```bash
 pip install -r requirements.txt
 ```
+<img width="910" height="513" alt="image" src="https://github.com/user-attachments/assets/4b245f0e-23cf-46ec-9964-b0d86a7b53ed" />
 
 #### **4. Run the Pipeline**
 
 ```bash
 # Run everything at once
 python run_all.py
+```
+<img width="1597" height="847" alt="image" src="https://github.com/user-attachments/assets/1d2e20fc-250c-4765-b39f-3ee2cb9d30c3" />
 
+```bash
 # Or run step by step
 python generate_product_data.py
+```
+<img width="1127" height="850" alt="image" src="https://github.com/user-attachments/assets/4cbd537f-660f-497d-b435-a20c2b236ed2" />
+
+```bash
 python data_quality_pipeline.py
+```
+<img width="1276" height="847" alt="image" src="https://github.com/user-attachments/assets/f8ce8fda-2442-4243-b4c3-d2c7fa284104" />
+
+```bash
 python anomaly_detection.py
+```
+<img width="1225" height="851" alt="image" src="https://github.com/user-attachments/assets/0fe92032-9465-4861-82f6-7dd117709900" />
+
+```bash
 python reporting_dashboard.py
 ```
+<img width="1301" height="852" alt="image" src="https://github.com/user-attachments/assets/c4609c31-d304-4937-8bc2-36cc169afe2f" />
 
 #### **5. View Results**
 
 ```bash
 # Open dashboard in browser
-start dashboard_complete.html  # Windows
-open dashboard_complete.html   # Mac
-xdg-open dashboard_complete.html  # Linux
+start dashboard_complete.html
 ```
+<img width="1873" height="887" alt="image" src="https://github.com/user-attachments/assets/1bc2ef17-d1e7-4b3c-bc51-4cdf755771bb" />
+
 
 #### **6. Start API Server**
 
@@ -731,6 +744,8 @@ xdg-open dashboard_complete.html  # Linux
 python api_integration.py
 # Server runs at http://localhost:5001
 ```
+<img width="1350" height="845" alt="image" src="https://github.com/user-attachments/assets/05f5b831-e1eb-4eab-b61b-af08501503e0" />
+<img width="726" height="337" alt="image" src="https://github.com/user-attachments/assets/701abcda-2ffa-42d0-898d-37663d2de57f" />
 
 ---
 
@@ -741,7 +756,10 @@ python api_integration.py
 ```bash
 # One-command execution
 python run_all.py
+```
+<img width="1597" height="847" alt="image" src="https://github.com/user-attachments/assets/1d2e20fc-250c-4765-b39f-3ee2cb9d30c3" />
 
+```bash
 # Bash automation
 bash run_pipeline.sh
 
@@ -815,32 +833,6 @@ python api_integration.py            # Start API
 
 ---
 
-## 💼 **Interview Preparation**
-
-### **Common Interview Questions & Answers**
-
-**1. Tell me about this project.**
-
-> *"I built a complete data pipeline system called SmartPIM Analytics Engine. It handles data quality, anomaly detection, and visualization for e-commerce product data. The system generates realistic data, validates quality, uses AI/ML to find anomalies, and presents insights through an interactive dashboard and API. I used Python, Pandas, Scikit-learn, Flask, and Plotly. This project demonstrates my skills in data engineering, automation, and AI/ML."*
-
-**2. What was the biggest challenge?**
-
-> *"The biggest challenge was implementing the anomaly detection using both ML and statistical methods. I used Isolation Forest for product anomalies because it works well with high-dimensional data without distribution assumptions. For sales anomalies, I used Z-score with rolling windows to detect both spikes and drops in sales patterns."*
-
-**3. How did you handle data quality issues?**
-
-> *"I built a comprehensive validation pipeline that checks for missing values, duplicates, negative values, format issues, and outliers. For missing values, I used median imputation for numerical data. For outliers, I used the IQR method. The system tracks all quality issues and creates a detailed report."*
-
-**4. Why did you choose Isolation Forest?**
-
-> *"I chose Isolation Forest because it's effective for high-dimensional data without distribution assumptions, handles outliers well, provides anomaly scores, and is computationally efficient. It works by isolating anomalies with shorter paths in decision trees."*
-
-**5. How would you scale this project?**
-
-> *"I would implement distributed processing with PySpark, use cloud storage like S3, deploy with Docker and Kubernetes, use distributed training with Spark MLlib, and add load balancing and caching to the API."*
-
----
-
 ## 🤝 **Contributing**
 
 1. Fork the repository
@@ -859,9 +851,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 **Contact**
 
-**Your Name** - [your.email@example.com](mailto:your.email@example.com)
+**Nimra Noor** - [nimranoor584@gmail.com](mailto:nimranoor584@gmail.com)
 
-**Project Link:** [https://github.com/yourusername/smartpim-analytics](https://github.com/yourusername/smartpim-analytics)
+**Project Link:** [https://github.com/nimranoor99/smartpim-analytics](https://github.com/nimranoor99/smartpim-analytics)
 
 ---
 
@@ -869,7 +861,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - Inspired by real-world PIM systems
 - Built for demonstrating data engineering skills
-- Interview preparation project
 
 ---
 
