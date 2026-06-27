@@ -1,0 +1,48 @@
+{
+  "product_catalog": {
+    "dataset": "product_catalog",
+    "total_records": 520,
+    "validation_checks": {
+      "missing_values": {
+        "price": 29,
+        "status": 9,
+        "weight_kg": 26,
+        "rating": 15
+      },
+      "duplicates": 0,
+      "invalid_prices": 8,
+      "negative_stock": 10,
+      "invalid_status": 9,
+      "price_outliers": 5
+    },
+    "cleansing_actions": [
+      "\u2705 Filled missing price with median",
+      "\u2705 Filled missing weight with mean",
+      "\u2705 Filled missing rating with default 3.0",
+      "\u2705 Corrected invalid price values",
+      "\u2705 Set negative stock to 0",
+      "\u2705 Standardized status values"
+    ],
+    "summary": {
+      "records_after_cleansing": 520,
+      "records_removed": 0,
+      "cleansing_actions_applied": 6
+    }
+  },
+  "sales_data": {
+    "dataset": "sales_data",
+    "total_records": 11227,
+    "validation_checks": {
+      "missing_values": {},
+      "duplicates": 10707
+    },
+    "cleansing_actions": [
+      "\u2705 Removed 10707 duplicate records"
+    ],
+    "summary": {
+      "records_after_cleansing": 520,
+      "records_removed": 10707,
+      "cleansing_actions_applied": 1
+    }
+  }
+}

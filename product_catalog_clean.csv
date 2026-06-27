@@ -1,0 +1,521 @@
+product_id,name,category,brand,price,stock_quantity,status,last_updated,supplier,weight_kg,rating,price_outlier
+P000001,Product 1,Home & Garden,StyleCo,380.79,446,Active,2026-05-13 21:35:53.526360,Supplier_3,8.05,3.0,False
+P000002,Product 2,Books,FitLife,951.21,144,Active,2026-04-30 21:35:53.526371,Supplier_20,13.42,1.3,False
+P000003,Product 3,Clothing,FitLife,734.67,200,Under Review,2026-06-15 21:35:53.526375,Supplier_11,11.85,3.3,False
+P000004,Product 4,Electronics,ReadWell,602.67,416,Draft,2026-04-20 21:35:53.526377,Supplier_9,2.36,2.1,False
+P000005,Product 5,Sports,TechPro,164.46,211,Active,2026-06-08 21:35:53.526378,Supplier_17,4.74,4.2,False
+P000006,Product 6,Electronics,TechPro,164.43,460,Under Review,2026-05-04 21:35:53.526380,Supplier_3,,2.2,False
+P000007,Product 7,Books,FitLife,67.5,219,Draft,2026-06-23 21:35:53.526381,Supplier_16,11.18,2.8,False
+P000008,Product 8,Clothing,TechPro,867.51,239,Inactive,2026-05-16 21:35:53.526382,Supplier_20,0.6,1.0,False
+P000009,Product 9,Books,HomeSweet,605.1,412,Draft,2026-04-26 21:35:53.526384,Supplier_3,8.59,1.3,False
+P000010,Product 10,Books,FitLife,710.99,396,Under Review,2026-06-17 21:35:53.526385,Supplier_20,11.46,2.6,False
+P000011,Product 11,Home & Garden,StyleCo,30.38,45,Draft,2026-04-21 21:35:53.526386,Supplier_20,13.16,2.9,False
+P000012,Product 12,Electronics,HomeSweet,970.21,34,Draft,2026-05-09 21:35:53.526387,Supplier_20,5.2,3.4,False
+P000013,Product 13,Home & Garden,TechPro,834.12,252,Active,2026-05-11 21:35:53.526388,Supplier_15,12.34,2.2,False
+P000014,Product 14,Clothing,HomeSweet,220.22,389,Draft,2026-04-30 21:35:53.526389,Supplier_5,1.75,3.8,False
+P000015,Product 15,Clothing,FitLife,190.01,81,Draft,2026-05-09 21:35:53.526391,Supplier_10,12.71,4.4,False
+P000016,Product 16,Electronics,HomeSweet,191.57,370,Draft,2026-05-31 21:35:53.526392,Supplier_10,2.0,4.1,False
+P000017,Product 17,Electronics,ReadWell,311.2,255,Active,2026-06-16 21:35:53.526393,Supplier_15,6.02,1.2,False
+P000018,Product 18,Books,StyleCo,529.51,196,Inactive,2026-04-13 21:35:53.526394,Supplier_7,11.98,2.9,False
+P000019,Product 19,Sports,FitLife,437.63,302,Active,2026-05-11 21:35:53.526395,Supplier_20,2.33,1.4,False
+P000020,Product 20,Home & Garden,HomeSweet,298.32,408,Active,2026-05-31 21:35:53.526396,Supplier_3,3.52,2.0,False
+P000021,Product 21,Home & Garden,ReadWell,,449,Active,2026-05-14 21:35:53.526397,Supplier_15,10.86,4.9,False
+P000022,Product 22,Clothing,ReadWell,148.1,9,Active,2026-06-07 21:35:53.526398,Supplier_10,10.83,1.6,False
+P000023,Product 23,Books,FitLife,299.22,311,Inactive,2026-05-08 21:35:53.526400,Supplier_6,9.65,3.0,False
+P000024,Product 24,Electronics,FitLife,372.7,285,Draft,2026-05-26 21:35:53.526401,Supplier_8,10.44,3.5,False
+P000025,Product 25,Clothing,HomeSweet,,241,Draft,2026-06-03 21:35:53.526402,Supplier_12,8.19,,False
+P000026,Product 26,Home & Garden,ReadWell,787.32,250,Active,2026-04-22 21:35:53.526403,Supplier_19,,3.2,False
+P000027,Product 27,Clothing,TechPro,207.68,364,Under Review,2026-05-31 21:35:53.526404,Supplier_17,5.25,1.0,False
+P000028,Product 28,Books,ReadWell,519.09,4,Under Review,2026-06-08 21:35:53.526406,Supplier_6,2.81,2.3,False
+P000029,Product 29,Sports,ReadWell,596.49,118,Draft,2026-03-31 21:35:53.526407,Supplier_18,13.64,3.1,False
+P000030,Product 30,Clothing,StyleCo,55.99,288,Active,2026-05-13 21:35:53.526408,Supplier_3,8.79,1.4,False
+P000031,Product 31,Clothing,HomeSweet,611.47,373,Inactive,2026-06-08 21:35:53.526409,Supplier_18,6.07,2.4,False
+P000032,Product 32,Electronics,FitLife,178.82,64,Active,2026-05-08 21:35:53.526410,Supplier_13,6.98,1.1,False
+P000033,Product 33,Home & Garden,StyleCo,74.4,145,Active,2026-06-23 21:35:53.526411,Supplier_9,14.21,1.3,False
+P000034,Product 34,Books,FitLife,50.0,223,Active,2026-06-22 21:35:53.526412,Supplier_17,2.38,2.6,False
+P000035,Product 35,Home & Garden,FitLife,965.98,238,Inactive,2026-05-10 21:35:53.526414,Supplier_17,8.83,1.5,False
+P000036,Product 36,Books,StyleCo,810.31,176,Draft,2026-06-16 21:35:53.526415,Supplier_11,7.64,3.3,False
+P000037,Product 37,Home & Garden,StyleCo,311.57,266,Draft,2026-05-07 21:35:53.526416,Supplier_20,9.21,3.8,False
+P000038,Product 38,Electronics,HomeSweet,106.7,340,Inactive,2026-06-06 21:35:53.526417,Supplier_17,,4.2,False
+P000039,Product 39,Home & Garden,StyleCo,687.39,281,Inactive,2026-06-10 21:35:53.526418,Supplier_13,13.09,1.8,False
+P000040,Product 40,Electronics,StyleCo,,62,Under Review,2026-04-29 21:35:53.526419,Supplier_5,13.99,1.7,False
+P000041,Product 41,Books,HomeSweet,130.82,216,Inactive,2026-05-11 21:35:53.526421,Supplier_20,8.52,1.4,False
+P000042,Product 42,Books,StyleCo,500.23,341,Inactive,2026-03-29 21:35:53.526422,Supplier_19,10.48,3.5,False
+P000043,Product 43,Books,StyleCo,44.04,314,Inactive,2026-06-03 21:35:53.526423,Supplier_19,13.85,3.8,False
+P000044,Product 44,Clothing,StyleCo,910.23,282,Under Review,2026-06-16 21:35:53.526426,Supplier_1,10.64,1.1,False
+P000045,Product 45,Home & Garden,StyleCo,266.19,176,Inactive,2026-04-04 21:35:53.526428,Supplier_6,2.37,4.7,False
+P000046,Product 46,Clothing,TechPro,665.9,460,Inactive,2026-04-25 21:35:53.526429,Supplier_13,8.69,1.2,False
+P000047,Product 47,Clothing,ReadWell,,416,Active,2026-05-09 21:35:53.526430,Supplier_11,9.14,3.2,False
+P000048,Product 48,Books,StyleCo,524.87,97,Active,2026-05-08 21:35:53.526431,Supplier_1,6.42,3.8,False
+P000049,Product 49,Clothing,TechPro,551.24,104,Draft,2026-05-08 21:35:53.526432,Supplier_20,11.07,4.5,False
+P000050,Product 50,Books,TechPro,193.01,98,Active,2026-05-01 21:35:53.526433,Supplier_14,14.02,3.9,False
+P000051,Product 51,Home & Garden,HomeSweet,969.89,384,Inactive,2026-05-17 21:35:53.526435,Supplier_9,13.89,4.2,False
+P000052,Product 52,Clothing,StyleCo,777.38,404,Under Review,2026-06-14 21:35:53.526436,Supplier_15,6.82,2.4,False
+P000053,Product 53,Clothing,StyleCo,940.1,495,Draft,2026-06-04 21:35:53.526437,Supplier_2,1.79,4.3,False
+P000054,Product 54,Home & Garden,StyleCo,895.88,0,Active,2026-05-14 21:35:53.526438,Supplier_9,14.77,1.3,False
+P000055,Product 55,Home & Garden,HomeSweet,601.92,5,Inactive,2026-06-17 21:35:53.526439,Supplier_7,12.6,4.6,False
+P000056,Product 56,Sports,HomeSweet,922.66,475,Active,2026-04-16 21:35:53.526440,Supplier_20,1.96,3.2,False
+P000057,Product 57,Books,ReadWell,97.61,464,Active,2026-06-24 21:35:53.526441,Supplier_6,13.82,4.3,False
+P000058,Product 58,Home & Garden,TechPro,204.02,196,Draft,2026-04-15 21:35:53.526442,Supplier_11,13.06,2.8,False
+P000059,Product 59,Electronics,StyleCo,54.78,350,Active,2026-06-15 21:35:53.526444,Supplier_10,7.83,3.6,False
+P000060,Product 60,Electronics,TechPro,332.08,132,Active,2026-06-10 21:35:53.526445,Supplier_4,8.91,3.1,False
+P000061,Product 61,Books,FitLife,394.79,357,Draft,2026-04-25 21:35:53.526446,Supplier_4,6.05,3.9,False
+P000062,Product 62,Clothing,ReadWell,278.64,258,Active,2026-06-03 21:35:53.526447,Supplier_4,0.92,1.3,False
+P000063,Product 63,Sports,ReadWell,830.45,436,Under Review,2026-04-10 21:35:53.526448,Supplier_12,5.09,1.2,False
+P000064,Product 64,Electronics,FitLife,,22,Draft,2026-05-15 21:35:53.526449,Supplier_6,12.06,2.0,False
+P000065,Product 65,Clothing,TechPro,,484,Inactive,2026-04-14 21:35:53.526450,Supplier_11,0.17,1.6,False
+P000066,Product 66,Sports,ReadWell,547.27,52,Under Review,2026-06-16 21:35:53.526452,Supplier_10,5.07,4.5,False
+P000067,Product 67,Clothing,ReadWell,149.51,164,Draft,2026-06-13 21:35:53.526453,Supplier_20,6.03,1.9,False
+P000068,Product 68,Home & Garden,ReadWell,804.18,201,Draft,2026-04-25 21:35:53.526454,Supplier_14,8.11,4.9,False
+P000069,Product 69,Home & Garden,FitLife,83.81,457,Draft,2026-04-30 21:35:53.526455,Supplier_12,13.81,2.3,False
+P000070,Product 70,Sports,HomeSweet,987.02,82,Inactive,2026-06-22 21:35:53.526456,Supplier_10,5.26,1.7,False
+P000071,Product 71,Books,HomeSweet,774.52,144,Active,2026-06-19 21:35:53.526457,Supplier_8,5.27,4.2,False
+P000072,Product 72,Home & Garden,ReadWell,206.73,84,Under Review,2026-04-22 21:35:53.526458,Supplier_5,11.09,3.6,False
+P000073,Product 73,Clothing,StyleCo,15.47,77,Inactive,2026-06-19 21:35:53.526459,Supplier_15,6.84,3.0,False
+P000074,Product 74,Home & Garden,StyleCo,817.31,456,Under Review,2026-04-03 21:35:53.526461,Supplier_19,3.45,3.2,False
+P000075,Product 75,Clothing,TechPro,709.79,365,Active,2026-06-25 21:35:53.526462,Supplier_18,6.84,3.9,False
+P000076,Product 76,Sports,HomeSweet,731.72,0,Active,2026-04-07 21:35:53.526463,Supplier_7,2.2,1.9,False
+P000077,Product 77,Clothing,HomeSweet,773.56,50,Under Review,2026-04-29 21:35:53.526464,Supplier_3,2.73,5.0,False
+P000078,Product 78,Sports,StyleCo,83.3,172,Active,2026-06-03 21:35:53.526465,Supplier_13,7.53,4.9,False
+P000079,Product 79,Books,StyleCo,364.88,204,Inactive,2026-05-22 21:35:53.526466,Supplier_13,6.34,3.6,False
+P000080,Product 80,Sports,StyleCo,124.71,259,Inactive,2026-04-27 21:35:53.526468,Supplier_19,13.73,1.8,False
+P000081,Product 81,Clothing,ReadWell,864.47,445,Under Review,2026-04-05 21:35:53.526469,Supplier_19,5.5,3.7,False
+P000082,Product 82,Clothing,HomeSweet,627.07,448,Inactive,2026-06-13 21:35:53.526470,Supplier_13,,1.3,False
+P000083,Product 83,Clothing,FitLife,337.59,368,Inactive,2026-06-20 21:35:53.526471,Supplier_9,9.52,1.1,False
+P000084,Product 84,Sports,HomeSweet,72.92,487,Draft,2026-06-12 21:35:53.526472,Supplier_17,0.3,2.0,False
+P000085,Product 85,Books,HomeSweet,317.87,287,Under Review,2026-06-09 21:35:53.526473,Supplier_3,9.99,2.9,False
+P000086,Product 86,Home & Garden,HomeSweet,331.93,33,Active,2026-04-15 21:35:53.526474,Supplier_18,2.75,4.5,False
+P000087,Product 87,Home & Garden,StyleCo,732.31,347,Under Review,2026-06-13 21:35:53.526475,Supplier_16,14.42,3.9,False
+P000088,Product 88,Sports,HomeSweet,641.18,94,Active,2026-05-19 21:35:53.526476,Supplier_17,,4.0,False
+P000089,Product 89,Home & Garden,HomeSweet,888.34,71,Draft,2026-05-12 21:35:53.526477,Supplier_13,6.28,2.7,False
+P000090,Product 90,Sports,HomeSweet,477.49,38,Draft,2026-06-15 21:35:53.526478,Supplier_11,1.37,2.4,False
+P000091,Product 91,Electronics,ReadWell,10000.0,153,Draft,2026-04-30 21:35:53.526480,Supplier_11,14.95,2.5,True
+P000092,Product 92,Clothing,HomeSweet,,249,Active,2026-05-03 21:35:53.526481,Supplier_17,7.58,5.0,False
+P000093,Product 93,Sports,FitLife,763.18,161,Under Review,2026-04-19 21:35:53.526482,Supplier_7,8.97,1.2,False
+P000094,Product 94,Clothing,HomeSweet,565.66,437,Inactive,2026-04-15 21:35:53.526483,Supplier_10,1.1,4.5,False
+P000095,Product 95,Clothing,ReadWell,,117,Under Review,2026-05-27 21:35:53.526484,Supplier_19,11.27,3.3,False
+P000096,Product 96,Electronics,FitLife,498.86,258,Draft,2026-04-30 21:35:53.526485,Supplier_4,3.23,2.8,False
+P000097,Product 97,Sports,TechPro,527.51,378,Inactive,2026-05-12 21:35:53.526486,Supplier_19,13.48,3.9,False
+P000098,Product 98,Electronics,ReadWell,433.27,305,Inactive,2026-04-04 21:35:53.526488,Supplier_5,3.16,2.9,False
+P000099,Product 99,Books,HomeSweet,35.16,267,Draft,2026-05-03 21:35:53.526489,Supplier_14,2.94,4.5,False
+P000100,Product 100,Books,TechPro,116.81,448,Draft,2026-06-21 21:35:53.526490,Supplier_8,,4.6,False
+P000101,Product 101,Sports,FitLife,41.11,53,Inactive,2026-04-11 21:35:53.526491,Supplier_3,7.13,2.7,False
+P000102,Product 102,Books,HomeSweet,640.05,235,Inactive,2026-06-05 21:35:53.526492,Supplier_18,8.52,2.1,False
+P000103,Product 103,Electronics,HomeSweet,321.21,388,Draft,2026-06-08 21:35:53.526493,Supplier_5,1.08,3.4,False
+P000104,Product 104,Clothing,StyleCo,513.48,477,Under Review,2026-05-07 21:35:53.526494,Supplier_16,11.66,4.6,False
+P000105,Product 105,Clothing,FitLife,908.49,221,Draft,2026-06-09 21:35:53.526495,Supplier_16,6.85,1.8,False
+P000106,Product 106,Electronics,TechPro,256.8,250,Inactive,2026-03-29 21:35:53.526496,Supplier_17,7.91,,False
+P000107,Product 107,Clothing,StyleCo,416.28,312,Inactive,2026-04-09 21:35:53.526498,Supplier_18,6.67,3.5,False
+P000108,Product 108,Books,TechPro,758.0,400,Active,2026-05-04 21:35:53.526499,Supplier_19,6.07,3.9,False
+P000109,Product 109,Clothing,ReadWell,236.51,111,Inactive,2026-05-22 21:35:53.526500,Supplier_13,8.44,1.5,False
+P000110,Product 110,Home & Garden,StyleCo,86.21,254,Under Review,2026-04-06 21:35:53.526501,Supplier_10,2.41,3.9,False
+P000111,Product 111,Electronics,HomeSweet,296.85,302,Under Review,2026-06-21 21:35:53.526502,Supplier_5,2.81,4.6,False
+P000112,Product 112,Electronics,HomeSweet,169.61,406,Active,2026-05-27 21:35:53.526503,Supplier_7,12.94,1.7,False
+P000113,Product 113,Clothing,TechPro,930.4,206,Draft,2026-05-23 21:35:53.526504,Supplier_19,14.2,2.0,False
+P000114,Product 114,Home & Garden,StyleCo,810.04,228,Under Review,2026-04-04 21:35:53.526505,Supplier_14,5.66,4.9,False
+P000115,Product 115,Books,TechPro,637.07,340,Under Review,2026-05-04 21:35:53.526507,Supplier_17,4.13,1.7,False
+P000116,Product 116,Books,ReadWell,872.75,397,Under Review,2026-06-05 21:35:53.526508,Supplier_11,9.7,4.4,False
+P000117,Product 117,Books,FitLife,805.64,65,Draft,2026-04-07 21:35:53.526509,Supplier_8,6.19,3.0,False
+P000118,Product 118,Home & Garden,ReadWell,194.7,74,Inactive,2026-06-12 21:35:53.526510,Supplier_7,0.48,2.0,False
+P000119,Product 119,Electronics,FitLife,893.63,434,Active,2026-06-26 21:35:53.526511,Supplier_6,2.43,4.5,False
+P000120,Product 120,Sports,ReadWell,543.95,102,Active,2026-06-20 21:35:53.526512,Supplier_11,10.77,2.8,False
+P000121,Product 121,Electronics,FitLife,809.37,421,Draft,2026-06-22 21:35:53.526513,Supplier_14,9.92,3.1,False
+P000122,Product 122,Sports,StyleCo,897.13,191,Draft,2026-06-22 21:35:53.526514,Supplier_14,0.5,2.4,False
+P000123,Product 123,Sports,HomeSweet,324.82,251,Under Review,2026-04-09 21:35:53.526516,Supplier_16,3.41,3.4,False
+P000124,Product 124,Clothing,HomeSweet,118.95,225,Draft,2026-06-03 21:35:53.526517,Supplier_16,3.54,1.7,False
+P000125,Product 125,Electronics,FitLife,235.66,293,Under Review,2026-05-08 21:35:53.526518,Supplier_4,10.11,2.6,False
+P000126,Product 126,Books,FitLife,432.84,305,Under Review,2026-05-06 21:35:53.526519,Supplier_14,0.39,4.9,False
+P000127,Product 127,Home & Garden,HomeSweet,819.83,97,Draft,2026-06-08 21:35:53.526520,Supplier_11,1.65,,False
+P000128,Product 128,Clothing,ReadWell,862.12,337,Draft,2026-04-25 21:35:53.526521,Supplier_4,12.02,3.6,False
+P000129,Product 129,Sports,StyleCo,16.88,285,Under Review,2026-05-08 21:35:53.526523,Supplier_15,2.76,2.3,False
+P000130,Product 130,Books,ReadWell,515.64,334,Active,2026-04-30 21:35:53.526526,Supplier_10,9.83,4.1,False
+P000131,Product 131,Books,TechPro,423.24,346,Inactive,2026-03-30 21:35:53.526527,Supplier_9,3.65,1.5,False
+P000132,Product 132,Sports,ReadWell,229.89,434,Inactive,2026-06-13 21:35:53.526528,Supplier_5,1.58,4.9,False
+P000133,Product 133,Clothing,FitLife,128.67,446,Draft,2026-04-22 21:35:53.526529,Supplier_20,3.72,2.8,False
+P000134,Product 134,Home & Garden,FitLife,344.24,481,Under Review,2026-05-28 21:35:53.526531,Supplier_4,10.86,1.9,False
+P000135,Product 135,Clothing,TechPro,943.48,307,Under Review,2026-04-28 21:35:53.526532,Supplier_12,12.85,1.3,False
+P000136,Product 136,Books,TechPro,329.97,248,Active,2026-05-26 21:35:53.526533,Supplier_13,12.47,1.7,False
+P000137,Product 137,Home & Garden,FitLife,523.6,165,Draft,2026-04-22 21:35:53.526534,Supplier_19,6.02,3.1,False
+P000138,Product 138,Electronics,FitLife,705.99,480,Under Review,2026-05-08 21:35:53.526535,Supplier_19,10.05,2.3,False
+P000139,Product 139,Home & Garden,HomeSweet,369.99,471,Draft,2026-04-17 21:35:53.526536,Supplier_7,3.15,4.3,False
+P000140,Product 140,Books,ReadWell,972.06,334,Active,2026-06-18 21:35:53.526537,Supplier_20,4.47,2.7,False
+P000141,Product 141,Electronics,HomeSweet,962.82,29,Draft,2026-05-28 21:35:53.526539,Supplier_5,13.46,2.0,False
+P000142,Product 142,Home & Garden,HomeSweet,259.26,246,Draft,2026-06-26 21:35:53.526540,Supplier_18,0.29,3.5,False
+P000143,Product 143,Home & Garden,HomeSweet,502.28,105,Inactive,2026-05-21 21:35:53.526541,Supplier_11,1.37,3.8,False
+P000144,Product 144,Clothing,HomeSweet,307.87,50,Under Review,2026-05-05 21:35:53.526542,Supplier_3,3.2,1.7,False
+P000145,Product 145,Clothing,StyleCo,291.99,80,Under Review,2026-04-12 21:35:53.526543,Supplier_20,0.5,1.7,False
+P000146,Product 146,Books,ReadWell,46.52,132,Draft,2026-06-06 21:35:53.526544,Supplier_3,2.8,1.1,False
+P000147,Product 147,Clothing,FitLife,613.47,284,Inactive,2026-06-15 21:35:53.526545,Supplier_11,8.79,3.9,False
+P000148,Product 148,Sports,StyleCo,507.65,387,Inactive,2026-06-14 21:35:53.526546,Supplier_20,6.38,3.7,False
+P000149,Product 149,Books,StyleCo,60.96,137,Inactive,2026-05-28 21:35:53.526547,Supplier_6,13.4,2.9,False
+P000150,Product 150,Clothing,HomeSweet,285.86,183,Active,2026-05-28 21:35:53.526549,Supplier_14,12.28,4.4,False
+P000151,Product 151,Sports,HomeSweet,909.18,400,Draft,2026-05-27 21:35:53.526550,Supplier_11,5.19,4.2,False
+P000152,Product 152,Clothing,FitLife,247.17,329,Under Review,2026-04-09 21:35:53.526551,Supplier_11,3.97,3.3,False
+P000153,Product 153,Home & Garden,HomeSweet,153.45,272,Under Review,2026-05-31 21:35:53.526552,Supplier_4,5.76,4.5,False
+P000154,Product 154,Sports,TechPro,494.56,339,Inactive,2026-06-09 21:35:53.526553,Supplier_6,8.9,1.8,False
+P000155,Product 155,Electronics,FitLife,985.79,471,Active,2026-05-15 21:35:53.526554,Supplier_5,4.09,1.4,False
+P000156,Product 156,Books,HomeSweet,249.63,68,Under Review,2026-04-30 21:35:53.526555,Supplier_1,9.4,2.1,False
+P000157,Product 157,Sports,StyleCo,675.41,33,Under Review,2026-06-10 21:35:53.526557,Supplier_20,6.2,1.2,False
+P000158,Product 158,Sports,ReadWell,764.0,261,Inactive,2026-05-09 21:35:53.526558,Supplier_2,8.33,3.1,False
+P000159,Product 159,Books,StyleCo,245.26,0,Under Review,2026-05-31 21:35:53.526559,Supplier_12,6.6,4.7,False
+P000160,Product 160,Sports,ReadWell,730.93,449,Draft,2026-04-28 21:35:53.526560,Supplier_3,4.49,1.2,False
+P000161,Product 161,Electronics,FitLife,374.11,204,Under Review,2026-06-01 21:35:53.526561,Supplier_18,,1.5,False
+P000162,Product 162,Clothing,TechPro,635.98,125,Active,2026-05-08 21:35:53.526562,Supplier_5,11.48,2.8,False
+P000163,Product 163,Home & Garden,TechPro,637.19,234,Inactive,2026-05-03 21:35:53.526563,Supplier_15,2.19,4.7,False
+P000164,Product 164,Clothing,ReadWell,540.42,42,Active,2026-04-14 21:35:53.526564,Supplier_10,13.04,2.3,False
+P000165,Product 165,Sports,StyleCo,99.39,239,Draft,2026-05-27 21:35:53.526565,Supplier_13,7.36,,False
+P000166,Product 166,Books,ReadWell,836.95,458,Inactive,2026-05-18 21:35:53.526567,Supplier_8,13.43,1.2,False
+P000167,Product 167,Home & Garden,TechPro,327.57,370,Active,2026-05-10 21:35:53.526568,Supplier_6,12.02,1.6,False
+P000168,Product 168,Electronics,ReadWell,194.65,110,Inactive,2026-04-28 21:35:53.526569,Supplier_17,6.44,4.9,False
+P000169,Product 169,Clothing,StyleCo,50.37,248,Active,2026-04-28 21:35:53.526570,Supplier_9,0.43,4.9,False
+P000170,Product 170,Sports,FitLife,594.98,150,Active,2026-05-14 21:35:53.526571,Supplier_12,4.1,1.0,False
+P000171,Product 171,Electronics,FitLife,680.79,0,Active,2026-04-21 21:35:53.526572,Supplier_7,8.17,,False
+P000172,Product 172,Home & Garden,StyleCo,26.42,335,Draft,2026-04-13 21:35:53.526573,Supplier_19,9.54,3.6,False
+P000173,Product 173,Home & Garden,ReadWell,516.97,94,Active,2026-04-27 21:35:53.526574,Supplier_7,3.94,4.5,False
+P000174,Product 174,Clothing,ReadWell,234.23,458,Under Review,2026-06-23 21:35:53.526576,Supplier_20,2.18,2.8,False
+P000175,Product 175,Books,StyleCo,648.72,373,Draft,2026-04-05 21:35:53.526577,Supplier_6,12.54,3.1,False
+P000176,Product 176,Clothing,StyleCo,182.62,399,Under Review,2026-06-18 21:35:53.526578,Supplier_15,14.77,3.0,False
+P000177,Product 177,Sports,HomeSweet,694.03,7,Inactive,2026-04-09 21:35:53.526579,Supplier_3,7.93,3.7,False
+P000178,Product 178,Electronics,TechPro,392.87,387,Inactive,2026-06-21 21:35:53.526580,Supplier_15,2.66,1.6,False
+P000179,Product 179,Clothing,TechPro,50.0,359,Inactive,2026-05-28 21:35:53.526582,Supplier_1,4.16,1.1,False
+P000180,Product 180,Electronics,TechPro,50.0,387,Under Review,2026-04-17 21:35:53.526583,Supplier_18,0.37,2.2,False
+P000181,Product 181,Sports,StyleCo,347.66,183,Draft,2026-03-31 21:35:53.526584,Supplier_5,13.72,3.8,False
+P000182,Product 182,Books,FitLife,122.34,280,Inactive,2026-04-26 21:35:53.526585,Supplier_9,1.85,1.8,False
+P000183,Product 183,Clothing,TechPro,925.45,194,Draft,2026-06-11 21:35:53.526586,Supplier_2,8.69,3.7,False
+P000184,Product 184,Sports,HomeSweet,878.57,351,Inactive,2026-04-10 21:35:53.526587,Supplier_15,4.18,4.9,False
+P000185,Product 185,Home & Garden,HomeSweet,265.36,194,Under Review,2026-06-18 21:35:53.526588,Supplier_11,8.36,1.4,False
+P000186,Product 186,Books,ReadWell,663.38,154,Inactive,2026-04-08 21:35:53.526589,Supplier_3,9.81,3.7,False
+P000187,Product 187,Home & Garden,ReadWell,,92,Active,2026-05-28 21:35:53.526590,Supplier_20,12.46,2.8,False
+P000188,Product 188,Electronics,HomeSweet,559.65,159,Under Review,2026-05-11 21:35:53.526592,Supplier_3,3.18,4.5,False
+P000189,Product 189,Clothing,TechPro,534.35,433,Under Review,2026-06-04 21:35:53.526593,Supplier_6,0.26,1.7,False
+P000190,Product 190,Electronics,HomeSweet,249.43,60,Draft,2026-04-17 21:35:53.526594,Supplier_7,2.14,3.8,False
+P000191,Product 191,Electronics,StyleCo,102.17,121,Under Review,2026-06-12 21:35:53.526595,Supplier_14,13.51,4.4,False
+P000192,Product 192,Home & Garden,TechPro,898.24,50,Draft,2026-06-13 21:35:53.526596,Supplier_9,,4.8,False
+P000193,Product 193,Books,HomeSweet,901.41,402,Active,2026-06-06 21:35:53.526597,Supplier_18,9.0,3.7,False
+P000194,Product 194,Clothing,TechPro,,276,Under Review,2026-05-03 21:35:53.526598,Supplier_8,9.05,3.0,False
+P000195,Product 195,Books,TechPro,345.64,4,Under Review,2026-06-21 21:35:53.526599,Supplier_14,10.01,3.5,False
+P000196,Product 196,Home & Garden,ReadWell,50.0,465,Draft,2026-05-28 21:35:53.526600,Supplier_7,2.71,4.5,False
+P000197,Product 197,Clothing,StyleCo,728.7,91,Under Review,2026-06-05 21:35:53.526601,Supplier_17,13.72,3.3,False
+P000198,Product 198,Home & Garden,ReadWell,898.14,169,Inactive,2026-06-20 21:35:53.526602,Supplier_6,6.34,1.1,False
+P000199,Product 199,Books,FitLife,888.22,0,Active,2026-06-18 21:35:53.526604,Supplier_1,5.81,4.7,False
+P000200,Product 200,Home & Garden,ReadWell,782.08,21,Active,2026-04-17 21:35:53.526605,Supplier_18,,3.8,False
+P000201,Product 201,Sports,FitLife,645.61,404,Active,2026-05-20 21:35:53.526606,Supplier_13,0.8,3.7,False
+P000202,Product 202,Home & Garden,StyleCo,,325,Draft,2026-04-14 21:35:53.526607,Supplier_13,2.58,1.9,False
+P000203,Product 203,Clothing,HomeSweet,170.01,0,Active,2026-05-23 21:35:53.526608,Supplier_9,11.1,3.6,False
+P000204,Product 204,Home & Garden,ReadWell,899.57,132,Under Review,2026-06-23 21:35:53.526609,Supplier_19,1.33,2.6,False
+P000205,Product 205,Books,TechPro,610.36,232,Under Review,2026-05-24 21:35:53.526611,Supplier_1,9.09,3.6,False
+P000206,Product 206,Sports,FitLife,19.11,11,Under Review,2026-04-20 21:35:53.526612,Supplier_16,3.76,1.4,False
+P000207,Product 207,Sports,TechPro,110.46,345,Active,2026-05-15 21:35:53.526613,Supplier_14,5.9,3.6,False
+P000208,Product 208,Sports,TechPro,,45,Active,2026-05-12 21:35:53.526614,Supplier_17,4.4,5.0,False
+P000209,Product 209,Electronics,TechPro,15.01,33,Under Review,2026-05-01 21:35:53.526615,Supplier_5,5.4,1.2,False
+P000210,Product 210,Home & Garden,TechPro,169.2,432,Draft,2026-05-01 21:35:53.526616,Supplier_18,10.81,4.9,False
+P000211,Product 211,Clothing,FitLife,553.25,77,Active,2026-04-09 21:35:53.526617,Supplier_2,4.53,2.6,False
+P000212,Product 212,Sports,ReadWell,694.98,217,Under Review,2026-06-16 21:35:53.526618,Supplier_5,8.54,4.5,False
+P000213,Product 213,Home & Garden,ReadWell,655.44,300,Active,2026-06-13 21:35:53.526619,Supplier_9,7.19,4.1,False
+P000214,Product 214,Electronics,ReadWell,,410,Draft,2026-06-14 21:35:53.526622,Supplier_19,9.99,3.3,False
+P000215,Product 215,Electronics,TechPro,,72,Draft,2026-05-23 21:35:53.526623,Supplier_12,14.06,4.0,False
+P000216,Product 216,Clothing,HomeSweet,,281,Inactive,2026-06-07 21:35:53.526625,Supplier_11,11.02,4.5,False
+P000217,Product 217,Sports,FitLife,332.15,248,Under Review,2026-06-26 21:35:53.526626,Supplier_14,3.3,2.6,False
+P000218,Product 218,Books,HomeSweet,749.03,46,Active,2026-04-21 21:35:53.526627,Supplier_11,,2.3,False
+P000219,Product 219,Electronics,TechPro,653.14,120,Inactive,2026-03-30 21:35:53.526628,Supplier_16,4.01,3.7,False
+P000220,Product 220,Electronics,TechPro,850.73,213,Under Review,2026-05-01 21:35:53.526629,Supplier_11,8.97,4.2,False
+P000221,Product 221,Home & Garden,ReadWell,661.04,238,Active,2026-06-17 21:35:53.526631,Supplier_11,0.87,4.0,False
+P000222,Product 222,Home & Garden,ReadWell,572.63,55,Inactive,2026-05-11 21:35:53.526632,Supplier_16,7.5,4.2,False
+P000223,Product 223,Sports,FitLife,102.74,349,Under Review,2026-05-16 21:35:53.526633,Supplier_10,8.99,2.7,False
+P000224,Product 224,Sports,FitLife,374.04,106,Draft,2026-05-05 21:35:53.526634,Supplier_17,5.08,4.3,False
+P000225,Product 225,Electronics,TechPro,272.55,318,Under Review,2026-04-27 21:35:53.526635,Supplier_4,11.59,1.5,False
+P000226,Product 226,Home & Garden,FitLife,251.55,47,Inactive,2026-04-20 21:35:53.526636,Supplier_17,1.69,3.2,False
+P000227,Product 227,Home & Garden,HomeSweet,973.28,60,Draft,2026-06-20 21:35:53.526637,Supplier_12,1.22,1.0,False
+P000228,Product 228,Home & Garden,FitLife,399.17,336,Active,2026-06-15 21:35:53.526638,Supplier_12,10.95,2.3,False
+P000229,Product 229,Home & Garden,FitLife,893.13,25,Inactive,2026-05-07 21:35:53.526640,Supplier_9,7.48,2.5,False
+P000230,Product 230,Sports,ReadWell,634.83,291,Draft,2026-05-03 21:35:53.526641,Supplier_5,10.36,,False
+P000231,Product 231,Electronics,HomeSweet,796.86,256,Under Review,2026-04-26 21:35:53.526642,Supplier_13,6.58,3.8,False
+P000232,Product 232,Books,FitLife,507.61,7,Under Review,2026-05-08 21:35:53.526643,Supplier_4,3.77,2.6,False
+P000233,Product 233,Electronics,HomeSweet,581.13,112,Inactive,2026-04-09 21:35:53.526644,Supplier_7,12.3,2.8,False
+P000234,Product 234,Electronics,TechPro,497.59,354,Under Review,2026-06-21 21:35:53.526645,Supplier_16,12.01,2.0,False
+P000235,Product 235,Sports,StyleCo,203.29,252,Inactive,2026-05-09 21:35:53.526646,Supplier_2,10.45,2.5,False
+P000236,Product 236,Home & Garden,ReadWell,725.23,179,Active,2026-04-24 21:35:53.526648,Supplier_9,4.15,1.9,False
+P000237,Product 237,Electronics,HomeSweet,287.96,206,Under Review,2026-05-31 21:35:53.526649,Supplier_1,8.89,1.3,False
+P000238,Product 238,Home & Garden,HomeSweet,34.07,302,Draft,2026-04-14 21:35:53.526650,Supplier_10,5.48,3.4,False
+P000239,Product 239,Books,TechPro,649.02,126,Under Review,2026-04-13 21:35:53.526651,Supplier_3,,3.7,False
+P000240,Product 240,Electronics,ReadWell,185.34,55,Active,2026-04-07 21:35:53.526652,Supplier_14,13.77,3.5,False
+P000241,Product 241,Sports,HomeSweet,941.05,213,Under Review,2026-06-17 21:35:53.526653,Supplier_10,2.14,2.9,False
+P000242,Product 242,Home & Garden,TechPro,,13,Under Review,2026-04-22 21:35:53.526654,Supplier_6,14.26,2.5,False
+P000243,Product 243,Clothing,StyleCo,915.72,473,Inactive,2026-04-25 21:35:53.526660,Supplier_1,6.75,4.5,False
+P000244,Product 244,Books,FitLife,376.46,27,Under Review,2026-06-01 21:35:53.526661,Supplier_16,2.86,3.1,False
+P000245,Product 245,Sports,TechPro,25.3,470,Draft,2026-05-21 21:35:53.526662,Supplier_20,8.17,2.9,False
+P000246,Product 246,Books,FitLife,929.04,77,Inactive,2026-04-05 21:35:53.526663,Supplier_17,13.11,,False
+P000247,Product 247,Clothing,ReadWell,433.9,215,Under Review,2026-06-24 21:35:53.526664,Supplier_6,11.01,2.4,False
+P000248,Product 248,Sports,ReadWell,966.99,385,Draft,2026-06-08 21:35:53.526666,Supplier_8,12.12,2.5,False
+P000249,Product 249,Electronics,FitLife,963.98,364,Inactive,2026-06-05 21:35:53.526667,Supplier_18,9.92,2.6,False
+P000250,Product 250,Sports,StyleCo,854.48,153,Inactive,2026-04-06 21:35:53.526668,Supplier_6,10.41,3.3,False
+P000251,Product 251,Electronics,FitLife,301.5,13,Draft,2026-03-29 21:35:53.526669,Supplier_7,12.75,3.1,False
+P000252,Product 252,Electronics,FitLife,391.25,186,Under Review,2026-06-26 21:35:53.526670,Supplier_19,3.82,3.4,False
+P000253,Product 253,Clothing,HomeSweet,,311,Inactive,2026-05-18 21:35:53.526671,Supplier_15,7.39,4.1,False
+P000254,Product 254,Home & Garden,TechPro,323.75,370,Draft,2026-04-29 21:35:53.526673,Supplier_20,,4.3,False
+P000255,Product 255,Books,ReadWell,177.8,6,Active,2026-05-17 21:35:53.526674,Supplier_19,14.82,3.9,False
+P000256,Product 256,Sports,FitLife,561.23,2,Inactive,2026-04-12 21:35:53.526675,Supplier_12,14.17,4.8,False
+P000257,Product 257,Clothing,ReadWell,936.79,110,Active,2026-04-12 21:35:53.526676,Supplier_12,0.69,1.1,False
+P000258,Product 258,Home & Garden,TechPro,699.07,406,Active,2026-05-10 21:35:53.526677,Supplier_14,10.61,1.8,False
+P000259,Product 259,Electronics,ReadWell,574.36,237,Draft,2026-05-22 21:35:53.526678,Supplier_13,13.89,1.0,False
+P000260,Product 260,Electronics,TechPro,106.2,362,Draft,2026-04-16 21:35:53.526680,Supplier_19,2.79,3.6,False
+P000261,Product 261,Clothing,TechPro,618.86,238,Draft,2026-04-24 21:35:53.526681,Supplier_10,,4.6,False
+P000262,Product 262,Sports,ReadWell,990.15,492,Draft,2026-05-30 21:35:53.526682,Supplier_4,13.74,2.0,False
+P000263,Product 263,Sports,StyleCo,148.68,273,Under Review,2026-04-05 21:35:53.526683,Supplier_5,0.61,4.7,False
+P000264,Product 264,Books,FitLife,523.15,293,Active,2026-05-24 21:35:53.526684,Supplier_9,10.49,1.2,False
+P000265,Product 265,Sports,HomeSweet,878.6,226,Active,2026-04-11 21:35:53.526686,Supplier_4,4.53,4.7,False
+P000266,Product 266,Home & Garden,ReadWell,743.36,370,Active,2026-04-04 21:35:53.526687,Supplier_18,13.87,2.4,False
+P000267,Product 267,Home & Garden,TechPro,700.05,14,Draft,2026-06-14 21:35:53.526688,Supplier_16,14.57,1.4,False
+P000268,Product 268,Home & Garden,HomeSweet,705.46,191,Under Review,2026-06-18 21:35:53.526689,Supplier_1,14.17,2.9,False
+P000269,Product 269,Sports,HomeSweet,365.9,472,Inactive,2026-05-26 21:35:53.526690,Supplier_14,7.17,2.0,False
+P000270,Product 270,Books,ReadWell,300.66,118,Inactive,2026-05-12 21:35:53.526692,Supplier_7,12.94,2.1,False
+P000271,Product 271,Electronics,HomeSweet,811.27,484,Inactive,2026-06-01 21:35:53.526693,Supplier_16,12.68,2.2,False
+P000272,Product 272,Home & Garden,StyleCo,812.01,27,Under Review,2026-06-18 21:35:53.526694,Supplier_3,4.85,4.2,False
+P000273,Product 273,Home & Garden,TechPro,868.4,201,Inactive,2026-06-25 21:35:53.526695,Supplier_20,12.45,3.2,False
+P000274,Product 274,Electronics,TechPro,914.11,38,Under Review,2026-05-18 21:35:53.526710,Supplier_13,0.65,2.2,False
+P000275,Product 275,Home & Garden,TechPro,516.23,440,Draft,2026-04-27 21:35:53.526711,Supplier_20,8.98,3.4,False
+P000276,Product 276,Home & Garden,StyleCo,506.5,272,Under Review,2026-06-23 21:35:53.526712,Supplier_9,3.53,3.9,False
+P000277,Product 277,Clothing,HomeSweet,800.31,230,Draft,2026-06-10 21:35:53.526713,Supplier_9,1.9,2.1,False
+P000278,Product 278,Clothing,TechPro,10000.0,85,Under Review,2026-04-22 21:35:53.526715,Supplier_19,1.25,2.7,True
+P000279,Product 279,Clothing,ReadWell,704.95,473,Inactive,2026-05-21 21:35:53.526716,Supplier_3,10.47,1.5,False
+P000280,Product 280,Home & Garden,TechPro,797.83,125,Under Review,2026-04-28 21:35:53.526717,Supplier_19,5.16,1.7,False
+P000281,Product 281,Books,StyleCo,891.11,299,Inactive,2026-06-27 21:35:53.526718,Supplier_17,10.9,3.7,False
+P000282,Product 282,Sports,TechPro,344.62,24,Draft,2026-05-16 21:35:53.526720,Supplier_12,1.07,1.7,False
+P000283,Product 283,Sports,HomeSweet,381.83,144,Draft,2026-04-03 21:35:53.526721,Supplier_13,4.8,3.1,False
+P000284,Product 284,Sports,HomeSweet,10000.0,12,Under Review,2026-05-05 21:35:53.526723,Supplier_20,8.14,3.8,True
+P000285,Product 285,Home & Garden,HomeSweet,582.5,211,Draft,2026-04-02 21:35:53.526724,Supplier_13,11.88,1.4,False
+P000286,Product 286,Home & Garden,StyleCo,45.58,24,Under Review,2026-04-04 21:35:53.526725,Supplier_4,4.85,3.3,False
+P000287,Product 287,Sports,ReadWell,470.94,67,Active,2026-05-25 21:35:53.526726,Supplier_10,9.43,2.0,False
+P000288,Product 288,Electronics,TechPro,547.22,393,Under Review,2026-05-31 21:35:53.526727,Supplier_15,13.3,4.9,False
+P000289,Product 289,Sports,HomeSweet,293.68,66,Draft,2026-05-28 21:35:53.526729,Supplier_17,9.28,2.9,False
+P000290,Product 290,Clothing,HomeSweet,594.92,232,Under Review,2026-06-12 21:35:53.526730,Supplier_3,3.57,4.2,False
+P000291,Product 291,Electronics,StyleCo,40.2,108,Draft,2026-04-18 21:35:53.526731,Supplier_20,0.46,3.2,False
+P000292,Product 292,Sports,StyleCo,46.97,145,Draft,2026-05-26 21:35:53.526732,Supplier_12,13.06,1.2,False
+P000293,Product 293,Home & Garden,TechPro,824.37,110,Under Review,2026-05-18 21:35:53.526733,Supplier_18,0.42,3.5,False
+P000294,Product 294,Sports,ReadWell,366.59,227,Under Review,2026-06-20 21:35:53.526734,Supplier_2,13.13,4.8,False
+P000295,Product 295,Books,ReadWell,135.79,110,Active,2026-05-11 21:35:53.526736,Supplier_8,7.98,3.4,False
+P000296,Product 296,Electronics,HomeSweet,50.0,469,Under Review,2026-06-15 21:35:53.526737,Supplier_19,14.09,4.3,False
+P000297,Product 297,Sports,FitLife,772.29,33,Inactive,2026-05-09 21:35:53.526738,Supplier_3,12.0,4.5,False
+P000298,Product 298,Sports,StyleCo,223.66,110,Inactive,2026-06-14 21:35:53.526739,Supplier_11,14.97,1.9,False
+P000299,Product 299,Home & Garden,StyleCo,626.66,263,Active,2026-06-18 21:35:53.526741,Supplier_4,5.33,1.8,False
+P000300,Product 300,Sports,HomeSweet,94.49,423,Active,2026-04-16 21:35:53.526743,Supplier_8,11.53,3.4,False
+P000301,Product 301,Electronics,ReadWell,61.16,368,Inactive,2026-04-03 21:35:53.526744,Supplier_2,6.09,,False
+P000302,Product 302,Sports,StyleCo,536.04,235,Draft,2026-06-19 21:35:53.526745,Supplier_20,7.25,4.4,False
+P000303,Product 303,Clothing,StyleCo,50.0,82,Inactive,2026-04-01 21:35:53.526746,Supplier_3,9.45,4.6,False
+P000304,Product 304,Electronics,FitLife,641.06,41,Draft,2026-06-05 21:35:53.526748,Supplier_10,13.12,,False
+P000305,Product 305,Home & Garden,ReadWell,,424,Under Review,2026-04-17 21:35:53.526749,Supplier_14,14.76,1.9,False
+P000306,Product 306,Home & Garden,ReadWell,976.09,100,Inactive,2026-05-08 21:35:53.526750,Supplier_20,11.55,4.1,False
+P000307,Product 307,Home & Garden,StyleCo,521.14,5,Draft,2026-06-01 21:35:53.526751,Supplier_9,6.32,2.1,False
+P000308,Product 308,Books,ReadWell,329.73,179,Draft,2026-05-07 21:35:53.526752,Supplier_2,6.38,4.3,False
+P000309,Product 309,Home & Garden,HomeSweet,797.23,281,Active,2026-06-25 21:35:53.526753,Supplier_2,11.09,2.7,False
+P000310,Product 310,Books,TechPro,278.12,319,Under Review,2026-04-28 21:35:53.526755,Supplier_18,3.66,3.7,False
+P000311,Product 311,Sports,FitLife,444.58,225,Under Review,2026-06-27 21:35:53.526756,Supplier_11,1.75,1.4,False
+P000312,Product 312,Home & Garden,ReadWell,87.67,442,Active,2026-04-09 21:35:53.526757,Supplier_10,5.38,3.5,False
+P000313,Product 313,Home & Garden,FitLife,35.1,439,Inactive,2026-04-12 21:35:53.526758,Supplier_7,4.38,2.8,False
+P000314,Product 314,Clothing,FitLife,963.02,314,Inactive,2026-06-07 21:35:53.526760,Supplier_17,4.51,3.3,False
+P000315,Product 315,Books,HomeSweet,837.62,364,Active,2026-05-04 21:35:53.526761,Supplier_5,3.58,1.7,False
+P000316,Product 316,Electronics,TechPro,699.01,453,Draft,2026-06-18 21:35:53.526762,Supplier_6,0.73,3.9,False
+P000317,Product 317,Home & Garden,TechPro,414.86,228,Under Review,2026-05-17 21:35:53.526763,Supplier_6,0.37,4.5,False
+P000318,Product 318,Books,TechPro,181.56,376,Active,2026-05-15 21:35:53.526764,Supplier_20,14.82,1.9,False
+P000319,Product 319,Clothing,ReadWell,10000.0,288,Under Review,2026-05-21 21:35:53.526765,Supplier_7,6.47,1.4,True
+P000320,Product 320,Clothing,FitLife,257.74,436,Under Review,2026-04-05 21:35:53.526766,Supplier_17,5.83,1.1,False
+P000321,Product 321,Electronics,FitLife,,149,Draft,2026-05-02 21:35:53.526768,Supplier_17,10.23,3.6,False
+P000322,Product 322,Clothing,HomeSweet,717.45,276,Draft,2026-05-22 21:35:53.526769,Supplier_20,3.35,3.4,False
+P000323,Product 323,Electronics,HomeSweet,663.6,197,Inactive,2026-04-01 21:35:53.526770,Supplier_15,14.25,3.2,False
+P000324,Product 324,Books,TechPro,287.13,69,Active,2026-04-19 21:35:53.526771,Supplier_1,11.82,1.9,False
+P000325,Product 325,Clothing,StyleCo,955.32,111,Inactive,2026-05-14 21:35:53.526772,Supplier_16,,2.6,False
+P000326,Product 326,Home & Garden,ReadWell,740.52,3,Draft,2026-04-28 21:35:53.526773,Supplier_19,6.32,3.4,False
+P000327,Product 327,Home & Garden,TechPro,558.81,349,Active,2026-06-09 21:35:53.526774,Supplier_11,,3.0,False
+P000328,Product 328,Sports,ReadWell,615.6,330,Draft,2026-06-04 21:35:53.526775,Supplier_20,,5.0,False
+P000329,Product 329,Home & Garden,StyleCo,425.4,445,Inactive,2026-05-25 21:35:53.526777,Supplier_12,7.06,1.5,False
+P000330,Product 330,Home & Garden,HomeSweet,255.25,317,Under Review,2026-05-18 21:35:53.526778,Supplier_5,9.24,3.8,False
+P000331,Product 331,Books,HomeSweet,362.41,349,Draft,2026-03-30 21:35:53.526779,Supplier_17,2.59,2.6,False
+P000332,Product 332,Sports,ReadWell,760.27,94,Under Review,2026-05-30 21:35:53.526780,Supplier_5,,2.7,False
+P000333,Product 333,Clothing,TechPro,24.25,151,Inactive,2026-04-04 21:35:53.526781,Supplier_18,3.55,3.9,False
+P000334,Product 334,Electronics,ReadWell,124.91,310,Under Review,2026-06-13 21:35:53.526782,Supplier_6,14.15,3.8,False
+P000335,Product 335,Home & Garden,TechPro,55.54,136,Active,2026-06-03 21:35:53.526783,Supplier_16,9.78,5.0,False
+P000336,Product 336,Sports,TechPro,50.32,246,Inactive,2026-05-09 21:35:53.526785,Supplier_13,,1.5,False
+P000337,Product 337,Electronics,ReadWell,856.91,386,Under Review,2026-04-04 21:35:53.526786,Supplier_11,7.74,1.4,False
+P000338,Product 338,Electronics,FitLife,706.62,242,Under Review,2026-05-27 21:35:53.526787,Supplier_8,3.54,3.9,False
+P000339,Product 339,Books,TechPro,,30,Inactive,2026-06-18 21:35:53.526788,Supplier_7,2.73,3.3,False
+P000340,Product 340,Books,TechPro,,39,Under Review,2026-05-11 21:35:53.526789,Supplier_13,3.39,2.1,False
+P000341,Product 341,Clothing,ReadWell,496.7,228,Under Review,2026-05-26 21:35:53.526790,Supplier_1,2.88,,False
+P000342,Product 342,Books,ReadWell,478.74,35,Draft,2026-06-02 21:35:53.526791,Supplier_12,11.72,1.3,False
+P000343,Product 343,Sports,HomeSweet,181.47,407,Under Review,2026-05-17 21:35:53.526793,Supplier_6,5.32,4.6,False
+P000344,Product 344,Sports,FitLife,439.51,222,Inactive,2026-06-24 21:35:53.526794,Supplier_5,0.96,1.8,False
+P000345,Product 345,Sports,HomeSweet,404.52,5,Inactive,2026-05-22 21:35:53.526795,Supplier_6,14.54,2.3,False
+P000346,Product 346,Books,ReadWell,619.69,321,Active,2026-05-05 21:35:53.526796,Supplier_11,13.27,1.9,False
+P000347,Product 347,Electronics,ReadWell,638.74,467,Under Review,2026-06-06 21:35:53.526798,Supplier_4,13.92,2.4,False
+P000348,Product 348,Clothing,TechPro,54.85,219,Under Review,2026-05-05 21:35:53.526799,Supplier_3,14.92,1.3,False
+P000349,Product 349,Books,ReadWell,380.87,74,Active,2026-04-28 21:35:53.526800,Supplier_2,2.69,3.1,False
+P000350,Product 350,Home & Garden,TechPro,629.6,3,Under Review,2026-06-24 21:35:53.526801,Supplier_13,6.0,1.3,False
+P000351,Product 351,Electronics,StyleCo,508.1,334,Under Review,2026-06-07 21:35:53.526802,Supplier_19,11.4,4.2,False
+P000352,Product 352,Home & Garden,FitLife,857.92,133,Inactive,2026-04-27 21:35:53.526803,Supplier_17,,1.9,False
+P000353,Product 353,Books,FitLife,662.11,117,Draft,2026-06-19 21:35:53.526804,Supplier_7,2.39,3.2,False
+P000354,Product 354,Electronics,ReadWell,171.31,368,Inactive,2026-06-03 21:35:53.526806,Supplier_8,12.26,4.5,False
+P000355,Product 355,Home & Garden,TechPro,79.86,93,Active,2026-05-08 21:35:53.526807,Supplier_17,3.44,3.6,False
+P000356,Product 356,Home & Garden,FitLife,646.0,485,Active,2026-06-20 21:35:53.526808,Supplier_16,3.43,3.1,False
+P000357,Product 357,Clothing,TechPro,36.25,434,Under Review,2026-06-26 21:35:53.526809,Supplier_4,8.1,2.3,False
+P000358,Product 358,Books,ReadWell,589.92,61,Under Review,2026-05-24 21:35:53.526810,Supplier_2,8.93,2.3,False
+P000359,Product 359,Electronics,ReadWell,940.83,440,Active,2026-04-19 21:35:53.526812,Supplier_10,8.74,3.7,False
+P000360,Product 360,Home & Garden,StyleCo,579.72,193,Inactive,2026-05-14 21:35:53.526813,Supplier_16,1.46,5.0,False
+P000361,Product 361,Books,ReadWell,394.29,0,Draft,2026-06-20 21:35:53.526814,Supplier_6,,3.6,False
+P000362,Product 362,Books,FitLife,646.86,202,Inactive,2026-04-25 21:35:53.526816,Supplier_2,4.06,3.2,False
+P000363,Product 363,Home & Garden,HomeSweet,463.67,391,Draft,2026-06-07 21:35:53.526817,Supplier_3,,3.9,False
+P000364,Product 364,Books,HomeSweet,550.16,25,Under Review,2026-05-24 21:35:53.526818,Supplier_15,13.34,2.9,False
+P000365,Product 365,Sports,ReadWell,942.05,434,Under Review,2026-06-15 21:35:53.526819,Supplier_7,14.34,1.2,False
+P000366,Product 366,Books,HomeSweet,392.24,172,Under Review,2026-03-29 21:35:53.526820,Supplier_15,12.95,3.2,False
+P000367,Product 367,Sports,HomeSweet,961.58,299,Draft,2026-06-22 21:35:53.526821,Supplier_3,12.16,4.8,False
+P000368,Product 368,Clothing,StyleCo,906.3,132,Active,2026-06-13 21:35:53.526822,Supplier_10,9.86,1.7,False
+P000369,Product 369,Clothing,FitLife,203.83,325,Active,2026-04-18 21:35:53.526823,Supplier_12,8.31,3.8,False
+P000370,Product 370,Sports,TechPro,78.67,409,Draft,2026-06-13 21:35:53.526825,Supplier_10,1.4,1.8,False
+P000371,Product 371,Electronics,StyleCo,109.77,117,Under Review,2026-05-15 21:35:53.526826,Supplier_4,6.19,3.1,False
+P000372,Product 372,Books,TechPro,28.04,323,Inactive,2026-03-31 21:35:53.526827,Supplier_1,5.65,1.4,False
+P000373,Product 373,Sports,HomeSweet,103.5,274,Inactive,2026-04-20 21:35:53.526828,Supplier_10,3.97,2.8,False
+P000374,Product 374,Sports,ReadWell,686.18,211,Active,2026-04-15 21:35:53.526829,Supplier_1,10.88,4.0,False
+P000375,Product 375,Sports,StyleCo,80.48,224,Under Review,2026-05-27 21:35:53.526830,Supplier_15,7.49,2.4,False
+P000376,Product 376,Electronics,StyleCo,325.79,19,Active,2026-06-08 21:35:53.526831,Supplier_14,1.31,3.7,False
+P000377,Product 377,Books,StyleCo,846.43,112,Under Review,2026-04-28 21:35:53.526833,Supplier_7,3.38,4.2,False
+P000378,Product 378,Clothing,HomeSweet,33.04,139,Inactive,2026-03-31 21:35:53.526834,Supplier_11,10.28,4.7,False
+P000379,Product 379,Books,ReadWell,816.32,46,Under Review,2026-05-14 21:35:53.526835,Supplier_11,1.23,,False
+P000380,Product 380,Sports,FitLife,289.04,0,Active,2026-04-05 21:35:53.526836,Supplier_3,12.78,2.6,False
+P000381,Product 381,Books,StyleCo,126.98,89,Inactive,2026-04-27 21:35:53.526837,Supplier_10,7.48,1.6,False
+P000382,Product 382,Clothing,HomeSweet,699.77,141,Under Review,2026-04-23 21:35:53.526838,Supplier_18,7.26,5.0,False
+P000383,Product 383,Clothing,ReadWell,,319,Under Review,2026-06-21 21:35:53.526840,Supplier_19,8.93,4.7,False
+P000384,Product 384,Home & Garden,FitLife,878.7,37,Active,2026-04-01 21:35:53.526842,Supplier_20,12.39,3.2,False
+P000385,Product 385,Electronics,HomeSweet,737.72,292,Draft,2026-05-15 21:35:53.526843,Supplier_11,5.28,4.4,False
+P000386,Product 386,Books,FitLife,805.45,381,Active,2026-06-15 21:35:53.526844,Supplier_15,10.2,3.1,False
+P000387,Product 387,Clothing,TechPro,,138,Active,2026-06-07 21:35:53.526846,Supplier_18,8.53,3.5,False
+P000388,Product 388,Clothing,FitLife,185.67,355,Under Review,2026-05-04 21:35:53.526847,Supplier_6,4.08,1.4,False
+P000389,Product 389,Home & Garden,TechPro,753.11,332,Inactive,2026-06-18 21:35:53.526848,Supplier_9,13.19,4.0,False
+P000390,Product 390,Home & Garden,FitLife,808.77,490,Under Review,2026-05-04 21:35:53.526849,Supplier_6,11.98,1.5,False
+P000391,Product 391,Electronics,StyleCo,,258,Under Review,2026-06-17 21:35:53.526850,Supplier_15,9.91,4.3,False
+P000392,Product 392,Books,StyleCo,418.49,160,Active,2026-06-02 21:35:53.526851,Supplier_3,12.77,4.1,False
+P000393,Product 393,Home & Garden,HomeSweet,378.3,389,Draft,2026-04-14 21:35:53.526853,Supplier_13,13.02,3.8,False
+P000394,Product 394,Books,StyleCo,778.65,177,Active,2026-06-18 21:35:53.526854,Supplier_7,10.65,1.1,False
+P000395,Product 395,Clothing,FitLife,347.4,9,Inactive,2026-06-03 21:35:53.526855,Supplier_13,12.57,2.2,False
+P000396,Product 396,Home & Garden,HomeSweet,931.45,260,Inactive,2026-05-31 21:35:53.526856,Supplier_1,10.49,2.1,False
+P000397,Product 397,Books,ReadWell,859.83,406,Inactive,2026-06-19 21:35:53.526857,Supplier_11,10.23,2.4,False
+P000398,Product 398,Sports,StyleCo,434.7,137,Under Review,2026-04-20 21:35:53.526858,Supplier_2,9.32,1.4,False
+P000399,Product 399,Electronics,FitLife,753.36,171,Under Review,2026-04-25 21:35:53.526859,Supplier_11,11.32,4.7,False
+P000400,Product 400,Sports,ReadWell,757.0,385,Inactive,2026-06-02 21:35:53.526860,Supplier_19,2.46,3.2,False
+P000401,Product 401,Home & Garden,HomeSweet,112.09,12,Active,2026-05-18 21:35:53.526862,Supplier_9,13.22,2.2,False
+P000402,Product 402,Books,FitLife,903.53,167,Inactive,2026-03-30 21:35:53.526863,Supplier_2,13.09,2.6,False
+P000403,Product 403,Sports,TechPro,510.2,129,Inactive,2026-06-11 21:35:53.526864,Supplier_17,0.54,2.8,False
+P000404,Product 404,Sports,StyleCo,828.19,83,Under Review,2026-06-23 21:35:53.526865,Supplier_10,12.4,3.4,False
+P000405,Product 405,Sports,HomeSweet,50.0,320,Draft,2026-04-02 21:35:53.526867,Supplier_16,2.02,3.1,False
+P000406,Product 406,Books,StyleCo,896.57,0,Inactive,2026-04-28 21:35:53.526868,Supplier_10,5.09,4.7,False
+P000407,Product 407,Books,StyleCo,395.31,100,Under Review,2026-06-20 21:35:53.526869,Supplier_7,11.18,3.0,False
+P000408,Product 408,Sports,TechPro,20.73,328,Draft,2026-05-11 21:35:53.526870,Supplier_11,2.5,5.0,False
+P000409,Product 409,Books,HomeSweet,906.33,272,Inactive,2026-04-06 21:35:53.526871,Supplier_13,12.29,4.4,False
+P000410,Product 410,Electronics,ReadWell,100.37,264,Active,2026-04-01 21:35:53.526872,Supplier_9,12.5,1.8,False
+P000411,Product 411,Books,StyleCo,326.12,458,Under Review,2026-05-23 21:35:53.526873,Supplier_16,7.66,4.7,False
+P000412,Product 412,Sports,HomeSweet,950.56,398,Draft,2026-06-02 21:35:53.526875,Supplier_14,0.2,1.5,False
+P000413,Product 413,Home & Garden,ReadWell,951.1,407,Under Review,2026-03-31 21:35:53.526876,Supplier_20,4.38,4.3,False
+P000414,Product 414,Books,StyleCo,577.7,37,Draft,2026-04-16 21:35:53.526877,Supplier_15,9.29,2.5,False
+P000415,Product 415,Home & Garden,StyleCo,635.52,418,Active,2026-05-12 21:35:53.526878,Supplier_9,14.72,4.5,False
+P000416,Product 416,Clothing,TechPro,453.96,93,Inactive,2026-05-25 21:35:53.526879,Supplier_7,9.51,4.5,False
+P000417,Product 417,Home & Garden,FitLife,,94,Active,2026-04-30 21:35:53.526880,Supplier_2,3.97,4.2,False
+P000418,Product 418,Electronics,StyleCo,335.38,304,Inactive,2026-04-29 21:35:53.526882,Supplier_13,9.55,4.2,False
+P000419,Product 419,Books,TechPro,,68,Under Review,2026-04-17 21:35:53.526883,Supplier_2,8.15,2.2,False
+P000420,Product 420,Clothing,ReadWell,754.85,317,Under Review,2026-04-08 21:35:53.526884,Supplier_4,11.72,1.3,False
+P000421,Product 421,Books,HomeSweet,793.66,443,Draft,2026-06-24 21:35:53.526885,Supplier_19,,2.6,False
+P000422,Product 422,Books,ReadWell,791.72,235,Under Review,2026-04-08 21:35:53.526886,Supplier_19,11.44,1.7,False
+P000423,Product 423,Clothing,ReadWell,100.29,433,Under Review,2026-06-05 21:35:53.526887,Supplier_20,8.16,3.8,False
+P000424,Product 424,Books,FitLife,499.48,333,Active,2026-06-08 21:35:53.526888,Supplier_19,14.45,2.4,False
+P000425,Product 425,Clothing,ReadWell,66.98,372,Draft,2026-04-18 21:35:53.526890,Supplier_17,5.19,,False
+P000426,Product 426,Home & Garden,HomeSweet,554.03,375,Active,2026-05-07 21:35:53.526891,Supplier_2,9.53,3.6,False
+P000427,Product 427,Electronics,TechPro,447.12,458,Under Review,2026-05-01 21:35:53.526892,Supplier_20,13.99,4.3,False
+P000428,Product 428,Electronics,ReadWell,888.83,136,Inactive,2026-04-13 21:35:53.526893,Supplier_1,1.63,1.5,False
+P000429,Product 429,Books,StyleCo,,417,Draft,2026-05-31 21:35:53.526894,Supplier_20,14.06,4.4,False
+P000430,Product 430,Home & Garden,HomeSweet,125.9,75,Draft,2026-06-17 21:35:53.526895,Supplier_19,10.35,4.7,False
+P000431,Product 431,Books,ReadWell,151.56,482,Under Review,2026-06-25 21:35:53.526896,Supplier_7,1.11,2.9,False
+P000432,Product 432,Electronics,HomeSweet,763.9,34,Draft,2026-04-12 21:35:53.526898,Supplier_1,4.58,3.4,False
+P000433,Product 433,Electronics,FitLife,622.04,0,Under Review,2026-05-05 21:35:53.526899,Supplier_9,10.65,4.1,False
+P000434,Product 434,Home & Garden,StyleCo,110.11,295,Active,2026-05-30 21:35:53.526900,Supplier_4,1.1,1.7,False
+P000435,Product 435,Clothing,ReadWell,93.27,319,Under Review,2026-04-10 21:35:53.526901,Supplier_14,8.77,3.0,False
+P000436,Product 436,Books,FitLife,703.96,405,Draft,2026-04-08 21:35:53.526902,Supplier_9,5.25,2.6,False
+P000437,Product 437,Electronics,HomeSweet,82.04,59,Inactive,2026-05-25 21:35:53.526903,Supplier_1,9.35,1.6,False
+P000438,Product 438,Books,ReadWell,823.64,319,Draft,2026-04-10 21:35:53.526904,Supplier_11,0.78,2.5,False
+P000439,Product 439,Books,FitLife,709.18,348,Active,2026-05-17 21:35:53.526906,Supplier_5,13.09,1.3,False
+P000440,Product 440,Sports,StyleCo,90.54,327,Inactive,2026-04-06 21:35:53.526907,Supplier_2,14.6,1.1,False
+P000441,Product 441,Home & Garden,HomeSweet,93.99,266,Active,2026-04-24 21:35:53.526908,Supplier_6,14.54,1.5,False
+P000442,Product 442,Electronics,StyleCo,986.77,360,Inactive,2026-05-22 21:35:53.526909,Supplier_16,11.27,4.9,False
+P000443,Product 443,Sports,HomeSweet,380.53,228,Draft,2026-05-26 21:35:53.526910,Supplier_5,2.04,3.2,False
+P000444,Product 444,Clothing,FitLife,376.94,269,Under Review,2026-05-04 21:35:53.526911,Supplier_7,11.4,4.9,False
+P000445,Product 445,Clothing,HomeSweet,814.67,315,Under Review,2026-06-23 21:35:53.526913,Supplier_1,0.47,2.7,False
+P000446,Product 446,Sports,TechPro,947.78,285,Active,2026-05-28 21:35:53.526914,Supplier_10,0.43,2.2,False
+P000447,Product 447,Sports,StyleCo,986.14,290,Inactive,2026-06-07 21:35:53.526915,Supplier_11,4.92,3.0,False
+P000448,Product 448,Clothing,ReadWell,755.84,212,Draft,2026-05-07 21:35:53.526916,Supplier_8,7.38,2.8,False
+P000449,Product 449,Electronics,HomeSweet,382.5,164,Draft,2026-06-27 21:35:53.526917,Supplier_12,11.58,1.4,False
+P000450,Product 450,Books,FitLife,92.67,4,Under Review,2026-06-12 21:35:53.526918,Supplier_10,10.28,3.6,False
+P000451,Product 451,Clothing,TechPro,50.0,338,Active,2026-05-30 21:35:53.526919,Supplier_10,6.74,1.9,False
+P000452,Product 452,Sports,StyleCo,562.82,378,Under Review,2026-06-04 21:35:53.526920,Supplier_13,4.18,3.5,False
+P000453,Product 453,Electronics,ReadWell,429.98,77,Under Review,2026-04-11 21:35:53.526922,Supplier_7,14.96,3.6,False
+P000454,Product 454,Electronics,HomeSweet,907.29,409,Active,2026-04-14 21:35:53.526923,Supplier_13,6.45,1.6,False
+P000455,Product 455,Home & Garden,HomeSweet,120.09,61,Under Review,2026-04-29 21:35:53.526924,Supplier_17,6.83,1.2,False
+P000456,Product 456,Books,TechPro,,131,Under Review,2026-06-24 21:35:53.526925,Supplier_5,2.54,4.1,False
+P000457,Product 457,Electronics,ReadWell,21.24,88,Inactive,2026-05-08 21:35:53.526926,Supplier_19,11.94,2.8,False
+P000458,Product 458,Electronics,HomeSweet,473.97,236,Under Review,2026-06-15 21:35:53.526928,Supplier_3,10.44,1.2,False
+P000459,Product 459,Sports,ReadWell,65.74,41,Under Review,2026-06-21 21:35:53.526929,Supplier_18,3.39,5.0,False
+P000460,Product 460,Electronics,HomeSweet,10000.0,88,Draft,2026-04-20 21:35:53.526930,Supplier_2,,1.2,True
+P000461,Product 461,Sports,FitLife,126.35,401,Under Review,2026-05-24 21:35:53.526931,Supplier_9,10.24,3.8,False
+P000462,Product 462,Sports,TechPro,652.72,295,Draft,2026-06-04 21:35:53.526932,Supplier_2,9.85,4.9,False
+P000463,Product 463,Sports,StyleCo,748.58,327,Inactive,2026-05-08 21:35:53.526933,Supplier_14,4.17,2.0,False
+P000464,Product 464,Sports,StyleCo,587.54,294,Draft,2026-04-10 21:35:53.526934,Supplier_4,14.27,1.6,False
+P000465,Product 465,Sports,StyleCo,962.55,103,Active,2026-05-28 21:35:53.526936,Supplier_12,2.35,1.5,False
+P000466,Product 466,Electronics,HomeSweet,381.12,13,Under Review,2026-04-15 21:35:53.526937,Supplier_11,6.54,2.2,False
+P000467,Product 467,Electronics,StyleCo,292.85,287,Under Review,2026-05-08 21:35:53.526938,Supplier_5,14.16,1.4,False
+P000468,Product 468,Books,ReadWell,869.91,178,Active,2026-06-04 21:35:53.526939,Supplier_20,6.35,,False
+P000469,Product 469,Sports,TechPro,231.36,124,Inactive,2026-06-15 21:35:53.526940,Supplier_9,9.61,1.2,False
+P000470,Product 470,Electronics,HomeSweet,963.59,421,Inactive,2026-04-05 21:35:53.526953,Supplier_3,6.02,3.0,False
+P000471,Product 471,Electronics,HomeSweet,,352,Draft,2026-04-16 21:35:53.526954,Supplier_9,4.19,5.0,False
+P000472,Product 472,Electronics,StyleCo,970.18,22,Inactive,2026-06-25 21:35:53.526956,Supplier_14,14.76,4.3,False
+P000473,Product 473,Sports,ReadWell,52.73,62,Draft,2026-06-04 21:35:53.526957,Supplier_7,6.2,3.5,False
+P000474,Product 474,Electronics,ReadWell,892.23,0,Draft,2026-06-23 21:35:53.526958,Supplier_19,13.42,2.2,False
+P000475,Product 475,Sports,FitLife,532.42,480,Draft,2026-06-11 21:35:53.526959,Supplier_11,3.53,3.5,False
+P000476,Product 476,Sports,TechPro,993.04,152,Inactive,2026-04-18 21:35:53.526961,Supplier_5,,3.1,False
+P000477,Product 477,Electronics,HomeSweet,83.06,144,Active,2026-06-03 21:35:53.526962,Supplier_2,0.56,2.7,False
+P000478,Product 478,Books,HomeSweet,558.32,224,Active,2026-04-30 21:35:53.526963,Supplier_8,9.81,1.5,False
+P000479,Product 479,Sports,ReadWell,969.61,494,Active,2026-05-08 21:35:53.526964,Supplier_9,5.59,4.5,False
+P000480,Product 480,Electronics,ReadWell,527.87,449,Inactive,2026-05-11 21:35:53.526965,Supplier_10,12.98,2.8,False
+P000481,Product 481,Home & Garden,FitLife,633.1,461,Draft,2026-04-27 21:35:53.526966,Supplier_19,7.15,1.8,False
+P000482,Product 482,Books,FitLife,698.79,308,Draft,2026-06-12 21:35:53.526968,Supplier_5,14.53,2.5,False
+P000483,Product 483,Home & Garden,TechPro,460.0,103,Inactive,2026-06-15 21:35:53.526969,Supplier_7,2.86,2.7,False
+P000484,Product 484,Home & Garden,HomeSweet,631.28,103,Under Review,2026-05-21 21:35:53.526970,Supplier_13,13.04,4.3,False
+P000485,Product 485,Clothing,HomeSweet,588.47,434,Under Review,2026-04-27 21:35:53.526971,Supplier_7,11.67,3.9,False
+P000486,Product 486,Home & Garden,StyleCo,902.15,38,Draft,2026-04-22 21:35:53.526972,Supplier_9,11.59,4.1,False
+P000487,Product 487,Electronics,TechPro,54.99,434,Draft,2026-05-18 21:35:53.526973,Supplier_11,,1.0,False
+P000488,Product 488,Electronics,TechPro,288.15,197,Draft,2026-06-07 21:35:53.526975,Supplier_14,11.44,2.7,False
+P000489,Product 489,Books,FitLife,950.91,133,Draft,2026-05-04 21:35:53.526976,Supplier_7,9.43,2.9,False
+P000490,Product 490,Books,TechPro,891.36,66,Inactive,2026-06-12 21:35:53.526977,Supplier_14,2.06,1.1,False
+P000491,Product 491,Electronics,FitLife,461.1,390,Under Review,2026-05-09 21:35:53.526978,Supplier_10,0.58,2.0,False
+P000492,Product 492,Home & Garden,StyleCo,623.93,178,Draft,2026-05-18 21:35:53.526979,Supplier_17,13.82,4.0,False
+P000493,Product 493,Sports,TechPro,284.61,455,Draft,2026-06-15 21:35:53.526980,Supplier_13,9.29,,False
+P000494,Product 494,Electronics,StyleCo,196.24,41,Draft,2026-06-09 21:35:53.526981,Supplier_6,11.97,3.1,False
+P000495,Product 495,Books,TechPro,469.06,447,Draft,2026-06-26 21:35:53.526983,Supplier_12,7.27,,False
+P000496,Product 496,Home & Garden,StyleCo,359.82,499,Draft,2026-05-16 21:35:53.526984,Supplier_2,1.85,1.0,False
+P000497,Product 497,Clothing,StyleCo,587.82,14,Under Review,2026-05-20 21:35:53.526985,Supplier_18,1.97,2.0,False
+P000498,Product 498,Clothing,TechPro,86.96,110,Inactive,2026-06-02 21:35:53.526986,Supplier_15,10.31,4.9,False
+P000499,Product 499,Sports,StyleCo,974.65,156,Draft,2026-04-24 21:35:53.526987,Supplier_17,6.51,4.2,False
+P000500,Product 500,Sports,HomeSweet,986.35,0,Inactive,2026-05-13 21:35:53.526988,Supplier_16,3.09,4.8,False
+P001001,Product 1,Home & Garden,StyleCo,380.79,446,Active,2026-05-13 21:35:53.526360,Supplier_3,8.05,3.0,False
+P001002,Product 2,Books,FitLife,951.21,144,Active,2026-04-30 21:35:53.526371,Supplier_20,13.42,1.3,False
+P001003,Product 3,Clothing,FitLife,734.67,200,Under Review,2026-06-15 21:35:53.526375,Supplier_11,11.85,3.3,False
+P001004,Product 4,Electronics,ReadWell,602.67,416,Draft,2026-04-20 21:35:53.526377,Supplier_9,2.36,2.1,False
+P001005,Product 5,Sports,TechPro,164.46,0,Active,2026-06-08 21:35:53.526378,Supplier_17,4.74,4.2,False
+P001006,Product 6,Electronics,TechPro,164.43,460,Under Review,2026-05-04 21:35:53.526380,Supplier_3,,2.2,False
+P001007,Product 7,Books,FitLife,67.5,219,Draft,2026-06-23 21:35:53.526381,Supplier_16,11.18,2.8,False
+P001008,Product 8,Clothing,TechPro,867.51,239,Inactive,2026-05-16 21:35:53.526382,Supplier_20,0.6,1.0,False
+P001009,Product 9,Books,HomeSweet,605.1,412,Draft,2026-04-26 21:35:53.526384,Supplier_3,8.59,1.3,False
+P001010,Product 10,Books,FitLife,710.99,396,Under Review,2026-06-17 21:35:53.526385,Supplier_20,11.46,2.6,False
+P001011,Product 11,Home & Garden,StyleCo,30.38,0,Draft,2026-04-21 21:35:53.526386,Supplier_20,13.16,2.9,False
+P001012,Product 12,Electronics,HomeSweet,970.21,34,Draft,2026-05-09 21:35:53.526387,Supplier_20,5.2,3.4,False
+P001013,Product 13,Home & Garden,TechPro,834.12,252,Active,2026-05-11 21:35:53.526388,Supplier_15,12.34,2.2,False
+P001014,Product 14,Clothing,HomeSweet,220.22,389,Draft,2026-04-30 21:35:53.526389,Supplier_5,1.75,3.8,False
+P001015,Product 15,Clothing,FitLife,190.01,81,Draft,2026-05-09 21:35:53.526391,Supplier_10,12.71,4.4,False
+P001016,Product 16,Electronics,HomeSweet,191.57,370,Draft,2026-05-31 21:35:53.526392,Supplier_10,2.0,4.1,False
+P001017,Product 17,Electronics,ReadWell,311.2,255,Active,2026-06-16 21:35:53.526393,Supplier_15,6.02,1.2,False
+P001018,Product 18,Books,StyleCo,529.51,196,Inactive,2026-04-13 21:35:53.526394,Supplier_7,11.98,2.9,False
+P001019,Product 19,Sports,FitLife,437.63,302,Draft,2026-05-11 21:35:53.526395,Supplier_20,2.33,1.4,False
+P001020,Product 20,Home & Garden,HomeSweet,298.32,408,Active,2026-05-31 21:35:53.526396,Supplier_3,3.52,2.0,False

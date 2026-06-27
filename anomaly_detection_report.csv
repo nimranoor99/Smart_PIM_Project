@@ -1,0 +1,40 @@
+type,product_id,reason,score,date,units,timestamp
+product_anomaly,P000008,"Unusual combination: price=$867.51, stock=239",-0.5660996780770124,,,2026-06-27 21:35:57.340232
+product_anomaly,P000053,"Unusual combination: price=$940.10, stock=495",-0.5755246796935627,,,2026-06-27 21:35:57.340232
+product_anomaly,P000054,"Unusual combination: price=$895.88, stock=0",-0.5758784056250047,,,2026-06-27 21:35:57.340232
+product_anomaly,P000057,"Unusual combination: price=$97.61, stock=464",-0.5672429122700896,,,2026-06-27 21:35:57.340232
+product_anomaly,P000065,"Unusual combination: price=$nan, stock=484",-0.5918720691381398,,,2026-06-27 21:35:57.340232
+product_anomaly,P000084,"Unusual combination: price=$72.92, stock=487",-0.5845958922521898,,,2026-06-27 21:35:57.340232
+product_anomaly,P000091,"Unusual combination: price=$10000.00, stock=153",-0.6904527633904695,,,2026-06-27 21:35:57.340232
+product_anomaly,P000126,"Unusual combination: price=$432.84, stock=305",-0.5787124577946957,,,2026-06-27 21:35:57.340232
+product_anomaly,P000132,"Unusual combination: price=$229.89, stock=434",-0.5726556519846018,,,2026-06-27 21:35:57.340232
+product_anomaly,P000166,"Unusual combination: price=$836.95, stock=458",-0.5735960068636492,,,2026-06-27 21:35:57.340232
+product_anomaly,P000169,"Unusual combination: price=$50.37, stock=248",-0.5758971133260256,,,2026-06-27 21:35:57.340232
+product_anomaly,P000227,"Unusual combination: price=$973.28, stock=60",-0.5811056017370452,,,2026-06-27 21:35:57.340232
+product_anomaly,P000256,"Unusual combination: price=$561.23, stock=2",-0.5667271234474222,,,2026-06-27 21:35:57.340232
+product_anomaly,P000262,"Unusual combination: price=$990.15, stock=492",-0.5870310955586552,,,2026-06-27 21:35:57.340232
+product_anomaly,P000278,"Unusual combination: price=$10000.00, stock=85",-0.6889373095803075,,,2026-06-27 21:35:57.340232
+product_anomaly,P000284,"Unusual combination: price=$10000.00, stock=12",-0.6933661906885196,,,2026-06-27 21:35:57.340232
+product_anomaly,P000296,"Unusual combination: price=$50.00, stock=469",-0.5784994372938058,,,2026-06-27 21:35:57.340232
+product_anomaly,P000319,"Unusual combination: price=$10000.00, stock=288",-0.6885610511993188,,,2026-06-27 21:35:57.340232
+product_anomaly,P000365,"Unusual combination: price=$942.05, stock=434",-0.5871908357403184,,,2026-06-27 21:35:57.340232
+product_anomaly,P000390,"Unusual combination: price=$808.77, stock=490",-0.5657202818783038,,,2026-06-27 21:35:57.340232
+product_anomaly,P000408,"Unusual combination: price=$20.73, stock=328",-0.5655359678798337,,,2026-06-27 21:35:57.340232
+product_anomaly,P000412,"Unusual combination: price=$950.56, stock=398",-0.5875184017333557,,,2026-06-27 21:35:57.340232
+product_anomaly,P000460,"Unusual combination: price=$10000.00, stock=88",-0.6883444081758814,,,2026-06-27 21:35:57.340232
+product_anomaly,P000472,"Unusual combination: price=$970.18, stock=22",-0.5720038166543151,,,2026-06-27 21:35:57.340232
+product_anomaly,P000496,"Unusual combination: price=$359.82, stock=499",-0.5918813616946981,,,2026-06-27 21:35:57.340232
+product_anomaly,P001008,"Unusual combination: price=$867.51, stock=239",-0.5660996780770124,,,2026-06-27 21:35:57.340232
+sales_anomaly,P000001,Unusual sales: 14 units (z-score: 2.27),,2026-04-03 21:35:53.548286,14.0,2026-06-27 21:35:57.340232
+sales_anomaly,P000004,Unusual sales: 17 units (z-score: 2.27),,2026-04-03 21:35:53.548286,17.0,2026-06-27 21:35:57.340232
+sales_anomaly,P000008,Unusual sales: 23 units (z-score: 2.27),,2026-04-12 21:35:53.548286,23.0,2026-06-27 21:35:57.340232
+sales_anomaly,P000010,Unusual sales: 14 units (z-score: 2.27),,2026-04-06 21:35:53.548286,14.0,2026-06-27 21:35:57.340232
+sales_anomaly,P000011,Unusual sales: 14 units (z-score: 2.27),,2026-04-04 21:35:53.548286,14.0,2026-06-27 21:35:57.340232
+sales_anomaly,P000013,Unusual sales: 18 units (z-score: 2.27),,2026-04-03 21:35:53.548286,18.0,2026-06-27 21:35:57.340232
+sales_anomaly,P000014,Unusual sales: 28 units (z-score: 2.27),,2026-04-05 21:35:53.548286,28.0,2026-06-27 21:35:57.340232
+sales_anomaly,P000015,Unusual sales: 21 units (z-score: 2.27),,2026-04-02 21:35:53.548286,21.0,2026-06-27 21:35:57.340232
+sales_anomaly,P000016,Unusual sales: 13 units (z-score: 2.27),,2026-04-04 21:35:53.548286,13.0,2026-06-27 21:35:57.340232
+sales_anomaly,P000017,Unusual sales: 27 units (z-score: 2.27),,2026-04-04 21:35:53.548286,27.0,2026-06-27 21:35:57.340232
+sales_anomaly,P000018,Unusual sales: 14 units (z-score: 2.27),,2026-04-02 21:35:53.548286,14.0,2026-06-27 21:35:57.340232
+sales_anomaly,P000019,Unusual sales: 15 units (z-score: 2.27),,2026-04-02 21:35:53.548286,15.0,2026-06-27 21:35:57.340232
+sales_anomaly,P000020,Unusual sales: 22 units (z-score: 2.27),,2026-04-05 21:35:53.548286,22.0,2026-06-27 21:35:57.340232
